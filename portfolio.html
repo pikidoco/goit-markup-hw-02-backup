@@ -2,31 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
+    <meta name="portfolio" content="WebStudio for business, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="#">WebStudio</a>
-        <nav>
-            <ul>
-                <li><a href="#">Studio</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </nav>
-            <a href="emailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+1212-772-4150">+1 212-772-4150</a>      
+        <div class="global-header">
+                <div><a href="/index.html"><span class="first-word">Web</span><span class="second-word">Studio</span></a></div>
+                <nav class="top-navigation">
+                    <ul class="menu-nav">
+                        <li><a href="index.html" class="nav-link current">Studio</a></li>
+                        <li><a href="portfolio.html" class="nav-link current">Portfolio</a></li>
+                        <li><a href="contacts.html" class="nav-link">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-contact">
+                    <a href="emailto:info@devstudio.com">info@devstudio.com</a>
+                    <a href="tel:+1212-772-4150">+1 212-772-4150</a>
+                 </div>          
+        </div>           
     </header>
     <main>
-        <ul>
-            <li><button type="button">All</button></li>
-            <li><button type="button">Web-sites</button></li>
-            <li><button type="button">Apps</button></li>
-            <li><button type="button">Design</button></li>
-            <li><button type="button">Marketing</button></li>
-        </ul>
-        <ul>
+        <section class="product-section">
+            <div class="nav-product">
+                <ul>
+                    <li><button class="button" type="button">All</button></li>
+                    <li><button class="button" type="button">Web-sites</button></li>
+                    <li><button class="button" type="button">Apps</button></li>
+                    <li><button class="buton" type="button">Design</button></li>
+                    <li><button class="button" type="button">Marketing</button></li>
+                </ul>
+            </div>
+         <ul class="card-section">
             <li><img src="./images/Technoduck.jpg" alt="Technoduck" width=390 height="294"><h3>Technoduck</h3><span>Web-site</span></li>
             <li><img src="./images/Poster-New-Orlean-vs-Golden-Star.jpg" alt="Poster New Orlean vs Golden Star" width=390 height="294"><h3>Poster New Orlean vs Golden Star</h3><span>Design</span></li>
             <li><img src="./images/Seafood-Restaurant.jpg" alt="Seafood Restaurant" width=390 height="294"><h3>Seafood Restaurant</h3><span>Apps</span></li>
@@ -36,12 +47,13 @@
             <li><img src="./images/Limited-Edition.jpg" alt="Limited Edition" width=390 height="294"><h3>Limited Edition</h3><span>Design</span></li>
             <li><img src="./images/Project-LAB.jpg" alt="Project LAB" width=390 height="294"><h3>Project LAB</h3><span>Marketing</span></li>
             <li><img src="./images/Growing-Business.jpg" alt="Growing Business" width=390 height="294"><h3>Growing Business</h3><span>Apps</span></li>
-        </ul>
+         </ul>
+        </section>
     </main>
-    <footer>
-        <a href="#">WebStudio</a>
+    <footer class="global-footer">
+        <a href="#"><span class="first-word">Web</span><span class="third-word">Studio</span></a>
         <address>
-            <p>Park Ave, NY 10065, USA</p>
+            <p class="phisical-address">Park Ave, NY 10065, USA</p>
             <p>info@devstudio.com</p>
             <p>+1 212-772-4150</p>
         </address>

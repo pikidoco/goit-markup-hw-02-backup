@@ -1,0 +1,108 @@
+:root{
+--text1-font-family:font-family:"Raleway',sans-serif"; 
+--text2-font-family:font-family:"Roboto', sans-serif";
+--title-color:#212121;
+--paragraph:var(--text2-font-family;weight 400px);
+}
+
+body{font-family: var(--text2-font-family);
+color: #212121;
+font-weight: bold;
+}
+
+.global-header,.button, h3 {
+    font-weight: bold;
+}
+
+ul {list-style-type: none;}
+a {text-decoration: none;}
+
+/*logo*/
+
+.first-word {color: #2196F3;
+    font-size: 26px;
+     font-weight: 700;}
+
+.second-word {color: #000000;
+    font-size: 26px;
+    font-weight: 700;}
+
+.third-word {color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 700;}
+
+.first-word .second-word .third-word {
+    font-family:var(--text1-font-family);
+    font-weight:700;
+}
+/*navigation bar*/
+
+.nav-link {
+    font-family: var(--text2-font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #212121;
+    font-weight: bold;
+}
+a:hover { color: #2196F3;
+}
+.nav-contact a {
+    font-family: var(--text2-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+}
+
+/*buttons*/
+
+.nav-product button {
+    font-family: var(--text2-font-family);
+    cursor: pointer;
+    font-weight: 500;
+    size: 16px;
+    color: #212121;
+    background-color: #F5F4FA;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3; 
+}
+
+/*card section*/
+
+.card-section h3 {
+    color: var(--title-color);
+    font-weight: 700;
+    size: 18px;
+}
+.card-section span {
+    color: #757575;
+    font-weight: 400;
+    size: 16px;
+}
+
+/*footer section*/
+
+.global-footer{
+    background-color: #2F303A;
+    font-family: var(--text2-font-family);
+    font-weight: 400;
+}
+address {font-style: normal;}
+
+.global-footer .phisical-address {
+    font-family:var(--paragraph);
+    size: 14px;
+    color: #FFFFFF;  
+}
+.global-footer p {
+    font-family: var(--paragraph);
+    size: 14px;
+    color: #FFFFFF99;
+}
+
+
+
